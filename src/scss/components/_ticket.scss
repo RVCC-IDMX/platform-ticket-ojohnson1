@@ -1,10 +1,14 @@
 .main-content {
   display: grid;
-  grid-template-columns: 2fr repeat(5, 4rem);
-  grid-template-rows: repeat(5, 100px);
+  // grid-template-columns: 2fr repeat(5, 4rem);
+  grid-template-columns: 3fr 1fr 1fr;
+  // grid-template-rows: repeat(5, 100px);
+  outline: 2px solid black;
 }
 
 .info {
+  display: grid;
+  outline: 2px solid red;
   &__hosts {
     grid-row: 2/ 2;
     grid-column: 1/ 2;
@@ -15,5 +19,8 @@
 }
 
 .platform {
-  writing-mode: sideways-rl;
+  display: grid;
+  outline: 2px solid green;
+  // writing-mode: sideways-rl;
+  writing-mode: vertical-rl;
 }
