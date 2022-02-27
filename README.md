@@ -5,3 +5,10 @@
 <img src="platform ticket.png" alt=1920 platform ticket>
 
 ![1920 Platform Ticket!](/src/images/platform ticket.png "Platform Ticket")
+
+<https://codepen.io/oliviale/pen/MZZYyO>
+
+Fonts Used:
+
+1. Roboto Slab
+2. Typo Slab Serif
