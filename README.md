@@ -4,9 +4,7 @@
 
 <img src="platform ticket.png" alt=1920 platform ticket>
 
-![1920 Platform Ticket!](/src/images/platform ticket.png "Platform Ticket")
-
-<https://codepen.io/oliviale/pen/MZZYyO>
+Olivia NG's codepen [www.codepen.com](https://codepen.io/oliviale/pen/MZZYyO).
 
 Fonts Used:
 
