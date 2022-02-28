@@ -1,12 +1,11 @@
 .main-content {
   display: grid;
 
-  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-columns: 3fr 1fr 0.5fr;
   outline: 2px solid black;
   background-color: #e5a776;
   color: #2a231b;
-  padding-block: 15px;
-  padding-inline: 15px;
+  padding: 20px;
 }
 
 .img-container__img {
@@ -30,10 +29,11 @@ hr {
   display: grid;
 
   justify-items: center;
+  padding-inline-start: 20px;
 
   &__hosts {
     font-family: "typoslabserif";
-    font-weight: 600;
+    font-weight: 900;
     margin-block: auto;
     border-inline-start: 1px;
     font-size: 20px;
@@ -53,19 +53,22 @@ hr {
   .first {
     text-align: center;
   }
+  .second {
+    font-weight: 900;
+  }
   &__price {
     font-family: "roboto_slab";
-    font-size: 45px;
+    font-size: 60px;
     margin-block: auto;
   }
 }
 
 .platform {
   display: grid;
-  // outline: 2px solid green;
   justify-items: center;
   writing-mode: vertical-rl;
   font-family: "roboto_slab";
+  padding-block-end: 2rem;
 
   &__company {
     font-size: 16px;
@@ -76,7 +79,7 @@ hr {
   }
 
   &__name {
-    font-size: 40px;
+    font-size: 45px;
     margin-inline: 5px;
   }
   &__misc {
